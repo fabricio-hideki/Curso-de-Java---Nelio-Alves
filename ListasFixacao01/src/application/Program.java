@@ -38,6 +38,7 @@ public class Program {
 		System.out.println();
 		System.out.println("Enter the employee that will have salary increase: ");
 		Integer id = sc.nextInt();
+		//Isso é uma estrutura lambda
 		Employee emp = list.stream().filter(x -> x.getId() == id).findFirst().orElse(null);
 		if (emp == null) {
 			System.out.println("This id does not exist! ");

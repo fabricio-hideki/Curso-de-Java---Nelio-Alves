@@ -42,6 +42,8 @@ public class CalculoComDataHora {
 		Duration t1 = Duration.between(pastWeekLocalDate.atTime(0,0), d04.atTime(0,0));
 		Duration t2 = Duration.between(pastWeekLocalDateTime, d05);
 		Duration t3 = Duration.between(pastWeekInstant, d06);
+		
+		//Aqui ele retorna um valor negativo, pois o primeiro argumento é uma data posterior ao segundo argumento
 		Duration t4 = Duration.between(d06, pastWeekInstant);
 
 		System.out.println("t1 dias = " + t1.toDays());
@@ -49,7 +51,5 @@ public class CalculoComDataHora {
 		System.out.println("t3 dias = " + t3.toDays());
 		System.out.println("t4 dias = " + t4.toDays());
 
-		
-		
 	}
 }
