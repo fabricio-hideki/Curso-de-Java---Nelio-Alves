@@ -45,7 +45,6 @@ public class Program {
 			System.out.println("Unexpected error ");
 		}
 		
-			
 		sc.close();
 	}
 
