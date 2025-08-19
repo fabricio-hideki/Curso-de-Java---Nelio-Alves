@@ -14,11 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>FileReader e BufferedReader</name>
-			<type>2</type>
-			<location>C:/Users/fabri/eclipse-workspace/Curso de Java - Nelio Alves/FileReader e BufferedReader</location>
-		</link>
-	</linkedResources>
 </projectDescription>
